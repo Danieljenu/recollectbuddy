@@ -180,9 +180,11 @@ export default function RecollectBuddyApp() {
           {/* Header */}
           <header className="max-w-7xl w-full mx-auto px-6 h-20 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="bg-gradient-to-tr from-[#2563eb] to-[#10b981] p-2.5 rounded-xl shadow-lg shadow-blue-500/10">
-                <Brain className="w-6 h-6 text-white" />
-              </div>
+              <img 
+                src="/logo.jpg" 
+                alt="RecollectBuddy Logo" 
+                className="w-10 h-10 rounded-xl object-cover object-top shadow-lg shadow-blue-500/10 border border-white/10" 
+              />
               <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-white to-slate-400 bg-clip-text text-transparent">RecollectBuddy</span>
             </div>
             <div className="flex items-center gap-4">
@@ -321,7 +323,11 @@ export default function RecollectBuddyApp() {
           {/* Mobile Header Toggle */}
           <div className="lg:hidden flex items-center justify-between px-6 py-4 bg-slate-900 border-b border-white/10 z-30">
             <div className="flex items-center gap-2">
-              <Brain className="w-6 h-6 text-blue-500" />
+              <img 
+                src="/logo.jpg" 
+                alt="RecollectBuddy Logo" 
+                className="w-8 h-8 rounded-lg object-cover object-top border border-white/10" 
+              />
               <span className="font-bold text-white">RecollectBuddy</span>
             </div>
             <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="p-2 text-white">
@@ -332,9 +338,11 @@ export default function RecollectBuddyApp() {
           {/* SIDE NAVIGATION */}
           <aside className={`w-full lg:w-64 bg-slate-950/80 border-r border-white/5 p-6 flex flex-col gap-8 z-20 transition-all duration-300 lg:static fixed top-[60px] left-0 bottom-0 ${mobileMenuOpen ? 'block' : 'hidden lg:flex'}`}>
             <div className="hidden lg:flex items-center gap-3">
-              <div className="bg-blue-500/10 p-2 rounded-xl border border-blue-500/20">
-                <Brain className="w-6 h-6 text-blue-400" />
-              </div>
+              <img 
+                src="/logo.jpg" 
+                alt="RecollectBuddy Logo" 
+                className="w-10 h-10 rounded-xl object-cover object-top shadow-lg border border-white/10" 
+              />
               <span className="font-bold text-lg tracking-tight">RecollectBuddy</span>
             </div>
 

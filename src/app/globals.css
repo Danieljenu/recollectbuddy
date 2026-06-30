@@ -5,7 +5,7 @@
     --primary: #2563eb;
     --primary-hover: #1d4ed8;
     --accent: #10b981;
-    --background: #090d16;
+    --background: #0f172a;
     --foreground: #f8fafc;
     --glass-bg: rgba(15, 23, 42, 0.45);
     --glass-border: rgba(255, 255, 255, 0.06);
@@ -26,6 +26,7 @@
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--glass-border);
+  border-radius: 20px;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
 }
 
